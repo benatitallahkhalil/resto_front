@@ -1,0 +1,57 @@
+.panier_section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panier_section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .panier_items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .panier_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .panier_item span {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .total_price {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .checkout_button {
+    display: block;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px auto 0;
+  }
+  
+  .checkout_button:hover {
+    background-color: #e67e22;
+  }
+  
